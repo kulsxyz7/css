@@ -170,3 +170,96 @@ oleh selector.
 
 inline > id > class > element
 
+css display 
+tag pada HTML digunakan untuk memberikan 'maksud'/'arti'
+pada sebuah konten (p untuk paragraf, h1 untuk heading utama,dll)
+
+tag <div> dan <span> tidak memiliki 'arti' apapun,
+keduanya digunakan untuk mengelompokkan tag-tag
+HTML dan memberikan informasi terhadap tag-tag
+tersebut.
+
+css display pengertian
+setiap tag pada HTML berada di dalam sebuah kotak. properti
+display pada CSS mengatur perilaku dari kotak tersebut.
+
+ setiap tag pada HTML memiliki nilai default untuk properti display.
+tetapi kita juga dapat mengubah perilaku dari tag tersebut dengan
+mengganti value-nya.
+
+value display : 
+- inline
+- inline-block
+- block
+- none
+
+inline :
+- elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat
+- lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+- kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+- margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+
+elemen inline : 
+b, strong, i, em, a, span, sub,sup, button, input, label, select, textarea, dll
+
+inline-block :
+- tidak ada elemen yang secara default memiliki properti
+display: inline-block;
+- kita harus ubah secara manual properti tersebut
+- perilaku dasarnya sama dengan elemen inline
+- perbedaannya, elemen inline-block dapat kita atur tinggi
+dan lebarnya.
+
+block :
+- elemen HTML yang secara default menambahkan baris baru
+ketika dibuat
+- jika tidak diatur lebarnya, maka lebar default dari elemen block
+akan memenuhi lebar dari browser / parent-nya
+- kita dapat mengatur tinggi dan lebar dari elemen blcok
+- didalam elemen block, kita dapat menyimpan tag dengan
+elemen inlin, inline-block, atau bahkan elemen block lagi.
+
+elemen block :
+- h1-h6, p, ol, ul, li, form, hr, div, dll.
+
+syntax emet 
+ul>li*5>a[href=#]{Link $}
+
+css Dimensi & overflow
+
+Dimensi 
+
+
+Overflow :
+- visible
+- auto = untuk memunculkan scroll apabila kata yg dimuat lebih banyak
+- hidden = jika kata2nya banyak kata2nya akan disembunyikan
+- scroll = mirip seperti auto tapi tidak menghilangkan scroll nya jika kata2nya kurang
+
+ CSS Box Model :
+- setiap elemen di halaman berada di dalam sebuah box (kotak)
+- kita bisa mengatur ukuran dan posisi kotak tersebut
+- kita bisa memberi warna / gambar sebagai background kotak tersebut
+
+css box model mendefinisikan 'kota' yang dihasilkan oleh sebuah elemen,
+lalu menampilkan nya sesuai dengan format visualnya
+
+css box model terdiri dari 
+- margin = area transparan disekitar kotak (diluar border)
+- border = area transparan didalam kotak (antara content dan border)
+- padding = batas disekiling content dan padding
+- content = konten sebenarnya didalam box, bisa berupa teks atau gambar
+
+properti untuk margin, padding & border
+- margin-top	- padding-top	- border-top
+- margin-right	- padding-right	- border-right
+- margin-bottom	- padding-bottom - border-bottom
+- margin-left	- padding-left	- border-left
+- margin	- padding	- border
+
+margin : 50px 100px;  // value pertama untuk atas dan bawah
+		      // value kedua untuk kiri dan kanan
+margin : 30px auto 40px; // value pertama atas, kedua kanan dan kiri, ketiga bawah
+margin : 10px 20px 30px 40px; // atas, kanan, bawah, kiri searah jarum jam
+
+

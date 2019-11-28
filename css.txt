@@ -276,3 +276,22 @@ style border :
 border juga menambahkan ukuran dari box
 
 css reset : https://meyerweb.com/eric/tools/css/reset/
+background-position: value pertama mengatur horizontal value kedua mengatur vertikal
+
+
+CSS Float 
+Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat di paksa untuk berada di sebelah kiri atau kanan dari parent/pembungkusnya dengan menggunakan properti ini.
+
+float value :
+- none
+- left
+- right
+
+yang bisa dilakukan menggunakan properti float
+- text wrapping = membuat teks mengelilingi gambar / elemen lain
+- image gallery = membuat serangkaian gambar menjadi galeri
+- multi-column layout = membuat halaman memiliki beberapa kolom
+-dll = dan masih banyak lagi
+
+
+

@@ -294,4 +294,43 @@ yang bisa dilakukan menggunakan properti float
 -dll = dan masih banyak lagi
 
 
+cara menghentikan / membersihkan float = 
+- menggunakan property overflow
+- menggunakan <div> kosong
+- menggunkan teknik micro clearfix
+
+clear = berfungsi untuk menghentikan / membersihkan float
+value clear = 
+- left
+- right
+- both
+
+CSS micro clearfix
+
+http://nicolasgallagher.com/micro-clearfix-hack/
+
+
+CSS position 
+value position : 
+- static
+- relative
+- absolute
+- fixed
+
+CSS position :
+- static adalah nilai default dari tiap-tiap elemen ketika tidak diberi properti position
+- menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+- elemen yang diberi position selain static dapat menggunakan properti top,left,bottom dan right untuk mengatur posisinya
+
+relative :
+- ketika kita menggerakkan elemen dengan posisi relative (menggunakan properti top,left,bottom dan right), ruang yang ditempati oleh elemen tersebut masih ada
+- ketika kita menggerakkan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semula-nya
+- jika kita memberi properti top: 0; dan left: 0;
+maka elemen tidak berubah posisinya
+
+absolute :
+- ketika kita menggerakkan elemen dengan posisi absolute (menggunakkan properti top,left, bottom dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada.
+- ketika kita menggerakkan elemen dengan posisi absolutem elemen akan bergerak relatif terhadap posisi dari elemen parent-nya, selama elemen parent-nya memiliki posisi yang non-static juga
+- jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya
+
 

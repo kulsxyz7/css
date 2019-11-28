@@ -264,4 +264,15 @@ margin : 10px 20px 30px 40px; // atas, kanan, bawah, kiri searah jarum jam
 
 padding tidak bisa dikasih auto atau nilai minus
 
-border 
+border: width style color;
+contoh border
+border: 5px solid black;
+style border : 
+- solid
+- dotted
+- dashed
+- double
+
+border juga menambahkan ukuran dari box
+
+css reset : https://meyerweb.com/eric/tools/css/reset/
